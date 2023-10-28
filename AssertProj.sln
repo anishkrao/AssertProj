@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssertProj", "AssertProj.csproj", "{09652D0F-0E59-4FB2-9A0A-4DA7B2A556FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09652D0F-0E59-4FB2-9A0A-4DA7B2A556FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09652D0F-0E59-4FB2-9A0A-4DA7B2A556FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09652D0F-0E59-4FB2-9A0A-4DA7B2A556FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09652D0F-0E59-4FB2-9A0A-4DA7B2A556FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC505B4B-0FFA-4E1A-B603-37D6858F9236}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AssertProj.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <div class="container-fluid text-start" style="background-color: black; height: 50px; ">
+                <div class="row pt-2">
+                    <div class="col-md-1">
+                        <asp:LinkButton ID="LinkButton1" style="text-decoration: none; color: white;" runat="server" OnClick="LinkButton1_Click">People</asp:LinkButton>
+                    </div>
+                    <div class="col-md-1">
+                        <asp:LinkButton ID="LinkButton2" style="text-decoration: none; color: white;" runat="server" OnClick="LinkButton2_Click">Settings</asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
